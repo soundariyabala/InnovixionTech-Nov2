@@ -1,0 +1,33 @@
+@media all and (min-width:250px)
+{
+    body{
+    background:url(assets.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;   
+}}
+.countdown{
+ text-align: center;
+ font-size: 3rem;
+ margin-top: 7rem;
+ }
+.timer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.time{
+    font-weight: bold;
+    padding:1rem 2rem;
+    font-size: 3rem;
+    border:4px solid black;
+    backdrop-filter: blur(10px);
+    margin:0 1rem;
+    border-radius: 1rem;     
+}
+.text{
+   margin-left: 40px;
+    font-size: 30px;    
+}
