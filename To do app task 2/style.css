@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    margin: 0 50px;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.app {
+  width: 400px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 45px;
+  overflow-y: scroll;
+  background-image: radial-gradient(circle at center center, rgba(113, 232, 206,0.1) 0%, rgba(113, 232, 206,0.1) 30%,rgba(164, 158, 146,0.1) 30%, rgba(164, 158, 146,0.1) 64%,transparent 64%, transparent 100%),linear-gradient(90deg, hsl(195, 77%, 70%),hsl(195, 88%, 67%)); background-size: 32px 32px;
+  background-size: 30px 30px;
+}
+.app::-webkit-scrollbar{
+    width: 0 !important;
+}
+#addnew {
+  background-image: radial-gradient(circle at bottom center, rgb(248, 160, 158),rgb(136, 31, 164));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.fa-plus {
+  background-image: radial-gradient(
+      circle at center center,
+      rgba(160, 99, 225, 0.22) 0%,
+      rgba(160, 99, 225, 0.22) 92%,
+      transparent 92%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, hsl(338, 74%, 86%), hsl(338, 74%, 86%));
+  background-size: 45px 45px;
+  padding: 3px;
+  border-radius: 3px;
+  color: black;
+}
+
+#tasks{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+#tasks div{
+   
+    border: 3px solid black;
+    padding: 7px;
+    color: black;
+    border-radius: 15px;
+    display: grid;
+    gap: 5px;
+ background-color:rgb(222, 147, 159)
+}
+#tasks div .options{
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+   
+}
+#tasks div .options i {
+    cursor: pointer;
+}
+h5{
+    color:rgb(26, 14, 14)!important;
+    
+}
+h3{
+    color:rgb(7, 7, 7) !important;
+}
+
+#msg{
+    color: rgb(228, 19, 19);
+}
