@@ -1,0 +1,1 @@
+This is my third and final task of my internship. Design a Quiz App ,I make a quiz website or app using HTML,CSS and Javasctript. In this quiz app ,can update your own questions and multiple options. This javascript Project Quiz app will display the score after submitting the answers for  all questions. 
